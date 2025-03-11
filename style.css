@@ -1,0 +1,53 @@
+body{
+    background-color: azure;
+    margin: 20px;
+}
+
+
+.container{
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.lakasok{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lakasok th,
+.lakasok td {
+    border: 1px thin #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+.lakasok th{
+    background-color: darkgray;
+}
+
+.lakasok tr:hover{
+    background-color: #d4e6f1;
+    transition: 0.3s;
+}
+
+.osszefoglalas{
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
